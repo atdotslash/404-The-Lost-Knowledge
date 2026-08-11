@@ -1,0 +1,238 @@
+{
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": false,
+    "orientation": "landscape",
+    "packageName": "com.lostknowledge.game404",
+    "projectUuid": "404a0000-0000-4000-8000-000000000404",
+    "scaleMode": "linear",
+    "sizeOnPlatformGatherNeeded": true,
+    "targetPlatform": "html5",
+    "templateSlug": "",
+    "useExternalSourceFiles": true,
+    "version": "1.0.0",
+    "name": "404: The Lost Knowledge",
+    "author": "Lead Game Programmer",
+    "windowWidth": 1920,
+    "windowHeight": 1080,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 30,
+    "verticalSync": true,
+    "loadingScreen": {
+      "showGDevelopSplash": true
+    },
+    "extensions": [],
+    "globalVariables": [
+      {
+        "name": "Integridad_Datos",
+        "type": "number",
+        "value": "100"
+      }
+    ]
+  },
+  "resources": {
+    "resources": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 0,
+      "r": 0,
+      "g": 0,
+      "title": "Menu",
+      "name": "Menu",
+      "stopSoundsOnStartup": true,
+      "disableInputWhenFocusLost": false,
+      "standardSortMethod": true,
+      "objectsList": [],
+      "objects": [],
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 1080,
+              "width": 1920
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "b": 0,
+      "r": 0,
+      "g": 0,
+      "title": "Tutorial",
+      "name": "Tutorial",
+      "stopSoundsOnStartup": true,
+      "disableInputWhenFocusLost": false,
+      "standardSortMethod": true,
+      "objectsList": [],
+      "objects": [],
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 1080,
+              "width": 1920
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "b": 0,
+      "r": 0,
+      "g": 0,
+      "title": "Nivel1",
+      "name": "Nivel1",
+      "stopSoundsOnStartup": true,
+      "disableInputWhenFocusLost": false,
+      "standardSortMethod": true,
+      "objectsList": [],
+      "objects": [],
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 1080,
+              "width": 1920
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "b": 0,
+      "r": 0,
+      "g": 0,
+      "title": "Nivel2",
+      "name": "Nivel2",
+      "stopSoundsOnStartup": true,
+      "disableInputWhenFocusLost": false,
+      "standardSortMethod": true,
+      "objectsList": [],
+      "objects": [],
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 1080,
+              "width": 1920
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "b": 0,
+      "r": 0,
+      "g": 0,
+      "title": "Nivel3",
+      "name": "Nivel3",
+      "stopSoundsOnStartup": true,
+      "disableInputWhenFocusLost": false,
+      "standardSortMethod": true,
+      "objectsList": [],
+      "objects": [],
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 1080,
+              "width": 1920
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "b": 0,
+      "r": 0,
+      "g": 0,
+      "title": "Kernel",
+      "name": "Kernel",
+      "stopSoundsOnStartup": true,
+      "disableInputWhenFocusLost": false,
+      "standardSortMethod": true,
+      "objectsList": [],
+      "objects": [],
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 1080,
+              "width": 1920
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "events": []
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
