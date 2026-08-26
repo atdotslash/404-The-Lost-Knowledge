@@ -204,11 +204,31 @@
   }
 
   // ==========================================
+  // 3. GLOBAL WRAPPERS & CONTEXT INTEGRATION
+  // ==========================================
+  
+  /**
+   * Global wrapper to restore integrity upon picking a collectible.
+   * Leverages a persistent global memory manager instance.
+   * 
+   * @param {object} [runtimeScene] Optional GDevelop runtimeScene instance
+   */
+  function restoreIntegrity(runtimeScene = null) {
+    if (!global._memoryManager) {
+      global._memoryManager = new MemoryManager(100.0, 2.5);
+    }
+    return global._memoryManager.onCollectibleCollision('RAM_STICK', null, runtimeScene);
+  }
+
+  global.restoreIntegrity = restoreIntegrity;
+
+  // ==========================================
   // EXPORT MODULE (Node.js & Browser / GDevelop)
   // ==========================================
   const CoreMechanics = {
     MemoryManager,
-    LegacyHardwarePhysics
+    LegacyHardwarePhysics,
+    restoreIntegrity
   };
 
   if (typeof module !== 'undefined' && module.exports) {
